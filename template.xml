@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <b:if cond='data:blog.view contains "-DevServer" or data:blog.view contains "-PreviewServer"'>
+    <b:else/>
+    <b:comment></b:comment><b:comment></b:comment>
+  </b:if>
+  <title><data:blog.title/></title>
+  <b:skin><![CDATA[]]></b:skin>
+</head>
+<body>
+  <div id='root'></div> <b:section id='main' showaddelement='yes'/>
+</body>
+</html>
